@@ -1,5 +1,12 @@
 public enum GameObjectType
 {
   Queen,
-  King
+  King,
+  Pawn,
+
+  Horse,
+
+  Tower,
+
+  Runner
 }

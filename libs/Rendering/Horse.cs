@@ -1,10 +1,10 @@
 namespace libs;
 
-public class King : GameObject {
+public class Horse : GameObject {
 
-    public King () : base(){
-        this.Type = GameObjectType.King;
-        this.CharRepresentation = '♚';
+    public Horse () : base(){
+        this.Type = GameObjectType.Horse;
+        this.CharRepresentation = '♘';
         this.Color = ConsoleColor.DarkGreen;
     }
      public override void Move(int dx, int dy) {
@@ -15,4 +15,4 @@ public class King : GameObject {
     }
 }
 
-// King = 1
+//Horse = 3
